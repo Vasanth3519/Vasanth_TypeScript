@@ -1,0 +1,117 @@
+<html>
+
+    <head>
+        <title>
+            Online Course Enrollment
+        </title>
+
+        <!-- Link CSS File -->
+
+        <link rel="stylesheet" href="style/style.css">
+
+        <!-- Link JavaScript File (TS) -->
+
+        <script src="script/script.js"></script>
+    </head>
+
+    <body>
+        
+        <!-- Heading -->
+        <br>
+
+        <h1> Syncfusion Course Academy </h1>
+
+        <br><br>
+
+        <!-- Home page -->
+
+        <div id="homepage">
+
+            <button id="newuser" value="New_User" onclick="HomePage()"> New User </button>
+            <button id="existinguser" value="Existing_User" onclick="LoginPage()"> Existing User </button>
+            
+            <br><br>
+            
+        </div>
+
+        <!-- New User Registration Page -->
+
+        <div id="registrationpage">
+
+            <h2 class="heading"> User Registration Portal </h2> <br>
+
+            <label>  Name: </label> <input type="text" placeholder="-" id="newusername"> <br><br>
+            <label>  Age: </label> <input type="number" placeholder="-" id="newuserage"> <br><br>
+            <label>  MobileNo: </label> <input type="number" placeholder="-" id="newuserphno"> <br><br>
+            <button id="adduser" value="submit" onclick="RegistrationPage()"> Enroll User </button>
+
+            <br><br>
+
+        </div>
+
+        <!-- Existing User Login Page -->
+
+        <div id="loginpage">
+
+            <h2 class="heading"> Login Portal </h2> <br>
+
+            <label> User-ID: </label> <input type="text" placeholder="-" id="existinguserid"> <br><br>
+
+            <!-- Navigate to Validate User page inorder to validate the user id provided is valid or invalid.  -->
+            
+            <button id="confirm" value="confirm" onclick="ValidateUser()"> Confirm </button> 
+            
+
+            <br><br>
+
+        </div>
+
+        <!-- Option Page Regarding Courses  -->
+        
+        <div id="coursepage">
+
+            <h2 class="heading"> Checking Portal </h2> <br>
+
+            <button id="availablecourse" value="Avaiable Courses" onclick="AvailableCourses()"> Courses Available </button>  <br><br>
+            <button id="enrolledcourse" value="Enrolled Courses" onclick="EnrolledCourses()"> Courses Enrolled </button>
+            
+            <br><br>
+
+        </div>
+
+        <!-- Available Courses Page -->
+
+        <div id="availablecoursepage">
+
+            <h2 class="heading"> Available Courses Portal </h2> <br>
+
+            <label> Courses Offered: </label>
+            <select id="courseselected">
+                <option> C Sharp (C#) </option>
+                <option> HTML </option>
+                <option> JavaScript </option>
+                <option> TypeScript </option>
+                <option> SQL </option>
+            </select> <br><br>
+            <label> Days Required: </label> <input type="number" placeholder="-" id="requireddays"><br><br>
+            <button id="addtolist" value="Add To List" onclick="HomePageAvailableCourse()"> Add To Course List </button>
+
+            <br><br>
+
+        </div>
+
+        <!-- Enrolled Courses Page -->
+
+        <div id="enrolledcoursepage"> 
+
+            <h2 class="heading"> Enrolled Courses Portal </h2> <br>
+
+            <label id="totalcourse"> Courses Enrolled </label> <br><br>
+            <label id="totaldays"> Days in Total </label>
+
+            <button id="exit" value="Exit" onclick="HomePageEnrolledCourse()"> Exit </button>
+
+        </div>
+
+    </body>
+</html>

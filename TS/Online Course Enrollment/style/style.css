@@ -1,0 +1,57 @@
+tsc body
+{
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+h1
+{
+    text-align: center;
+    color: tomato;
+    font-weight: bold;
+    font-style: italic;
+    font-size: xx-large;
+}
+
+button
+{
+    width: 150px;
+    height: 30px;
+    margin-left: 10px;
+    border: 15px;
+    background-color: saddlebrown;
+    color: whitesmoke;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+#homepage
+{
+    text-align: center;
+    display: block;
+}
+
+#registrationpage
+{
+    display: none;
+}
+
+#loginpage
+{
+    display: none;
+}
+
+#coursepage
+{
+    display: none;
+}
+
+#availablecoursepage
+{
+    display: none;
+}
+
+#enrolledcoursepage
+{
+    display: none;
+}
