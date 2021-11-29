@@ -1,0 +1,95 @@
+<html>
+
+    <head>
+        <title>
+            Application Form
+        </title>
+
+        <!-- Link the CSS File -->
+        <link rel="stylesheet" href="style/stylesheet.css">
+
+        <!-- Link the JavaScipt File -->
+        <script src="script/script.js"></script>
+
+    </head>
+
+    <body>
+        
+        <!-- Heading of the Page -->
+        <h1 class="heading"> Submit your application </h1>
+        <p class="heading"> for <b> .NET Developer (Fresher) </b> </p>
+
+        <!-- Personal Information -->
+
+        <h3> Personal Information </h3>
+
+        <!-- Form area -->
+
+        <form id="pi" action="#">
+
+            <p> 
+                Name as per ID proof <span class="asterisk"> * </span>  <input type="text" id="u_name"> 
+                <label id="l_uname" style="color: red; visibility: hidden"> Invalid </label> <br><br>
+                
+                Father's Name <span class="asterisk"> * </span>  <input type="text" id="f_name"> 
+                <label id="l_fname" style="color: red; visibility: hidden"> Invalid </label> <br><br>
+
+                Email <span class="asterisk"> * </span>  <input type="email" id="e_mail"> 
+                <label id="l_mail" style="color: red; visibility: hidden"> Invalid </label> <br><br>
+
+                Date of Birth <span class="asterisk"> * </span>  <input type="text" id="dob" placeholder="dd-mm-yyyy"> 
+                <label id="l_dob" style="color: red; visibility: hidden"> Invalid </label> <br><br>
+
+                Mobile Number <span class="asterisk"> * </span>  <input type="text" id="m_no">
+                <label id="l_mno" style="color: red; visibility: hidden"> Invalid </label>
+            
+                <!-- Current Address -->
+
+                <div class="current_address">
+                    Current Address <span class="asterisk"> * </span>  <br><br> <input type="text" id="ad1" placeholder="Address Line 1">
+                    <input type="text" id="ad2" placeholder="Address Line 2"> <br><br>
+                    <input type="text" id="city" placeholder="City">
+                    
+                    <select id="state">
+                        <option value="Tamilnadu"> Tamilnadu </option>
+                        <option value="Kerala"> Kerala </option>
+                        <option value="Karnataka"> Karnataka </option>
+                        <option value="Andra Pradesh"> Andra Pradesh </option>
+                    </select>
+                    <br><br>
+                    <input type="text" placeholder="Pincode" id="zip"> <br><br><br>
+                </div>
+
+                <!-- Permanent Address  -->
+
+                <div class="permanent_address">
+                    Permanent Address <span class="asterisk"> * </span> <input type="checkbox" name="check[]" value="Same Address"> Same as Current Address <br><br>
+                    <input type="text" id="ad1" placeholder="Address Line 1">
+                    <input type="text" id="ad2" placeholder="Address Line 2"> <br><br>
+                    <input type="text" id="city" placeholder="City">
+                    
+                    <select id="state">
+                        <option value="Tamilnadu"> Tamilnadu </option>
+                        <option value="Kerala"> Kerala </option>
+                        <option value="Karnataka"> Karnataka </option>
+                        <option value="Andra Pradesh"> Andra Pradesh </option>
+                    </select>
+                    <br><br>
+                    <input type="text" placeholder="Pincode" id="zip"> <br><br>
+                </div>
+
+            </p> 
+
+            <p class="info"> Upload Profile Photo <span class="asterisk"> * </span> (JPG / PNG format only) </p>
+            <p class="info"> Please upload a photo of yourself. Your face should be clearly visible. Make sure the image size does not exceed 500KB.</p> <br>
+            Upload Photo <br> <br> <input type="file" value="Photo">
+            <br><br><br>
+            <buttton type="button" onclick="return validate()" > Submit </buttton>
+
+        </form>
+
+
+
+    </body>
+
+</html>

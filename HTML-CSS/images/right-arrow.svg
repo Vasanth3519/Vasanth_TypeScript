@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>Arrow</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M6.41421356,15 L13,15 C13.5522847,15 14,15.4477153 14,16 C14,16.5522847 13.5522847,17 13,17 L4,17 C3.44771525,17 3,16.5522847 3,16 L3,7 C3,6.44771525 3.44771525,6 4,6 C4.55228475,6 5,6.44771525 5,7 L5,13.5857864 L15.2928932,3.29289322 C15.6834175,2.90236893 16.3165825,2.90236893 16.7071068,3.29289322 C17.0976311,3.68341751 17.0976311,4.31658249 16.7071068,4.70710678 L6.41421356,15 Z" id="path-1"></path>
+    </defs>
+    <g id="Arrow" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <use id="Combined-Shape-Copy" fill="#FF4800" fill-rule="nonzero" transform="translate(10.000000, 10.000000) rotate(-135.000000) translate(-10.000000, -10.000000) " xlink:href="#path-1"></use>
+    </g>
+</svg>

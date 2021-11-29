@@ -1,0 +1,20 @@
+.heading
+{
+    text-align: center;
+}
+
+.asterisk
+{
+    color: rgb(194, 39, 39);
+}
+
+#submit
+{
+    text-align: center;
+}
+
+.info
+{
+    line-height: 0.5px;
+    font-size: small;
+}

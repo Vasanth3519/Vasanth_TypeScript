@@ -1,0 +1,68 @@
+body
+{
+                                     
+    background-color: rgb(245, 251, 255);
+    background-image: url("../images/Vector-1.png");
+    background-repeat: no-repeat;
+}
+
+#chat_icon
+{
+    position: fixed;
+    float: right;
+    right: 20px;
+    bottom: 20px;
+}
+
+#call_sales
+{
+    left: 20px;
+}
+
+ul
+{
+    display: inline;
+    padding:5px;
+    width: 10%;
+    align-content: flex-end;
+    align-items: flex-end;
+
+}
+
+li
+{
+    mask-position: right;
+    display: inline;
+    padding: 5px;
+    font-size:1.2em;
+    vertical-align: top;
+    
+
+
+    background-color: rgb(245, 251, 255);
+    color: rgb(0, 0, 0);
+    width: 10%;
+}
+
+#header
+{
+    position: fixed;
+}
+
+#icon
+{
+    position: fixed;
+    
+}
+
+#form
+{
+    di
+    float:right;
+}
+
+#bottom
+{
+    font-size: smaller;
+}
+
